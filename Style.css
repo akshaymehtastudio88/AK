@@ -1,0 +1,479 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    padding: .05%;
+}
+.bottom img
+{
+    height: 200px;
+}
+.lg
+{
+    color: black;
+}
+.logo {
+    width: 27%;
+    text-align: center;
+    padding: 1%;
+}
+
+#cancel
+{
+    display: none;
+}
+.nav {
+    padding: 1%;
+    width: 67%;
+    margin: .5% 0%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 1%;
+}
+a
+{
+    text-decoration: none;
+}
+
+.call {
+    padding: 8px 30px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px rgb(216, 43, 72);
+    background-color: rgb(216, 43, 72);
+    color: white;
+}
+input:hover,textarea:hover
+{
+    box-shadow: 5px 5px 15px rgb(94, 94, 94);transition: 0.2s all ease-in-out;
+}
+
+#checkbtn {
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+#check {
+    padding: 0%;
+    display: none;
+}
+.main
+{
+    display: flex;height: auto;background-color:rgb(22, 63, 87); justify-content: space-evenly;padding: 5%;
+}
+.design
+{
+    width: 65%;color: white;padding: 75px 15% 0% 0%;
+}
+.quote
+{
+    width: 35%;
+}
+
+.form
+{
+    background-color: rgb(255, 255, 255);padding: 3% 5%;width: 80%;
+}
+.heading
+{
+    background-color: rgb(216, 43, 72);padding: 3%;text-align: center;color: white;width: 80%;
+}
+#name ,#mobile
+{
+    padding: 8px 2px;width: 95%;
+}
+#Question
+{
+    width: 95%;
+}
+.submit
+{
+    padding: 8px 30px;color: white;background-color: rgb(216, 43, 72);border: 1px solid white;box-shadow: 0px 0px 5px rgb(216, 43, 72);
+}
+.works  
+{
+   height: auto;background-color: white;text-align: center;padding: 50px;font-size: larger;
+   
+}
+.rw
+{
+    color: rgb(22, 63, 87);text-shadow: 0px 0px 3px rgb(22, 63, 87); font-size: 40px;
+}
+.rw1
+{
+    color: white;text-shadow: 0px 0px 3px rgb(255, 255, 255); font-size: 40px;
+}
+.b2
+{
+    padding: 0% 10%;
+}
+b
+{
+    color: red;
+}
+.btn1
+{
+    display: flex;justify-content: center;
+}
+
+.pink
+{
+    padding: 10px 75px;border: 1px solid white;box-shadow: 0px 0px 5px rgb(216, 43, 72);background-color:  rgb(216, 43, 72);color: white;margin-right:50px ;
+}
+.blue
+{
+    padding: 10px 75px; border: 1px solid white;box-shadow: 0px 0px 5px rgb(22, 63, 87); background-color: rgb(22, 63, 87);color: white;
+}
+.start
+{
+    background-color: rgb(17, 16, 16);color: white;text-align: center;height: auto;padding: 50px 10px 20px;
+}
+.card 
+{
+    display: flex;justify-content: space-evenly;
+}
+.res
+{
+    width: 30%;padding: 2%;margin: 2%;
+}
+.res
+{
+    background-color: rgb(22, 63, 87);text-align: center;padding: 1%;height: auto;
+}
+.lm
+{
+    padding: 8px 30px;
+}
+.step
+{
+    background-color: rgb(22, 63, 87);justify-content: center;padding: 5%;text-align: center;height: auto;color: white;
+}
+.white
+{
+    padding: 10px 75px; border: 1px solid rgb(22, 63, 87);box-shadow: 0px 0px 2px white; background-color: white;
+}
+img
+{
+    filter: drop-shadow(1px 1px 3px rgb(165, 164, 164));
+}
+.traffic
+{
+    background-color: rgb(95, 94, 94);color: white;padding: 50px;text-align: center;
+}
+.site
+{
+    background-color: rgb(168, 158, 112);color: white;padding: 50px;text-align: center;
+}
+.compare 
+{
+    display: flex;justify-content: space-evenly;
+}
+.faq
+{
+    display: flex;background-color: rgb(22, 63, 87);color: white;height: auto;
+    justify-content: space-evenly;
+}
+.faqs, .quote2
+{
+    margin: 2%; width: 47%;padding: 1%;
+}
+.questions , .form2
+{
+    background-color: white;color: black;padding: 30px;width: 95%;
+}
+#ans1,#ans2,#ans3,#ans4,#ans5,#ans6
+{
+    display: none;padding: 10px 20px;
+}
+.que
+{
+    display: flex  ;justify-content: space-between;padding: 20px;
+}
+.show
+{
+    background-color:transparent;margin-left: 2% ;padding: 0%;border: none;border-radius: 50%;height: 25px;width: 25px;color: rgba(0, 0, 0, 0.815);
+}
+.form3
+{
+    border: none;border-bottom: 1px solid black;width: 80%;margin: 10px;padding: 8px 30px;
+}
+.award
+{
+    text-align: center;background-color: rgba(202, 202, 202, 0.548);padding: 30px 10px;
+}
+.award h1
+{
+    font-size: 35px;
+}
+.image img
+{
+    width: 200px;height: 100px;
+}
+.equal
+{
+    height: 250px;
+}
+.equal h1
+{
+    height: 100px;
+}
+.awards
+{
+    display: flex;flex-wrap: wrap; overflow-x: scroll;height: 140px;flex-direction: column; overflow-y:hidden ;gap: 25px;
+}
+
+.links
+{
+    display: flex;justify-content: space-between;padding: 3%;
+}
+.qlinks  , .google
+{
+    width: 30%;
+}
+.contact
+{
+    width:35% ;
+}
+.qlinks a ,li
+{
+    list-style: none;text-decoration: none;color: black; padding: 1px;
+}
+.google img
+{
+    height: 100px;width: 100px;
+}
+.footer
+{
+    text-align: center;background-color: aquamarine;padding: .5%;
+}
+.nav a:hover
+{
+  text-decoration: underline;text-decoration-thickness: 3px;text-decoration-color: rgb(216, 43, 72);
+}
+.nav a:active
+{
+    background-color: rgb(216, 43, 72);
+}
+.qlinks a :hover
+{
+    text-decoration: underline;text-decoration-thickness: 3px;text-decoration-color: rgb(22, 63, 87);
+
+}
+.qlinks a li:active
+{
+    background-color: rgb(22, 63, 87);width: fit-content;
+}
+@media only screen and (min-width:900px) and (max-width:1007px) {
+    .navbar {
+        padding: 1%;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 95%;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .nav {
+        width: 95%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .nav ul li {
+        padding: 1%;
+        margin: 0%;
+    }
+
+    .call {
+        padding: 5px 15px;
+       
+    }
+
+    .brandname {
+        margin: .5%;
+    }
+
+    .list {
+        margin: .5%;
+    }
+
+    .design {
+        width: 50%;
+        font-size: large;
+        padding: 5% 1% 0% 0%;
+    }
+
+    .quote {
+        width: 45%;
+    }
+
+    #name,
+    #mobile {
+        width: 88%;
+    }
+
+    #Question {
+        width: 88%;
+
+    }
+    .rw
+    {
+        font-size: xx-large;
+    }
+    .rw1
+    {
+        font-size: xx-large;
+    }
+    .card
+    {
+         flex-direction: column;
+    }
+    .res
+    {
+        width: 90%;
+        justify-content: center;
+        height: auto;
+        margin: auto    ;margin-top: 50px;
+        padding: 2%;
+    }
+    .faqs, .quote2
+    {
+        width: 95%;
+    }
+    .questions , .form2
+    {
+        width: 95%;
+    }
+    .award h1
+    {
+        font-size: 30px;
+    }
+    
+}
+
+@media only screen and (max-width:899px) {
+
+    #checkbtn {
+        display: block;
+        padding: .5%;
+    }
+    #cancel
+    {
+        display: block;
+    }
+    
+    .nav {
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        top: 80px;
+        position: fixed;
+        transition: 1s;
+        background-color: white;
+
+    }
+    
+    .nav ul li {
+        display: block;
+        text-align: center;
+    }
+
+    #check:checked~.nav {
+        left: 0%; 
+    }
+    .logo {
+        width: 85%;
+        padding: 4% 0%;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .design {
+        width: 95%;
+        padding: 20px;
+
+    }
+
+    .quote {
+        width: 95%;
+        padding: 20px 0px 0px 20px;
+    }
+    .rw
+    {
+        font-size: larger;
+    }
+    .rw1
+    {
+        font-size: x-large;
+    }
+    .btn1
+    {
+        flex-direction: column;
+    }
+    .pink
+    {
+        margin: 0%;
+    }
+    .card
+    {
+        flex-direction: column;
+    }
+    .res
+    {
+        width: 90%;
+        justify-content: center;
+        height: auto;
+        margin: auto    ;margin-top: 50px;
+        padding: 2%;
+
+    }
+    .compare
+    {
+        flex-direction: column;
+    }
+    .faq
+    {
+        flex-direction: column;
+    }
+    .faqs, .quote2
+    {
+        width: 95%;
+    }
+    .questions , .form2
+    {
+        width:90%;
+    }
+    .award h1
+    {
+        font-size: 25px;
+    }
+        
+    .awards
+    {
+        height: 100px;
+    }
+    .links
+    {
+        flex-direction: column;
+    }
+    .qlinks , .contact , .google
+    {
+        width: 90%;margin: 20px 50px;
+    }
+    
+}
